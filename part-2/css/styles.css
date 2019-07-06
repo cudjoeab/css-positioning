@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0; 
 }
 
 img {
@@ -26,4 +26,53 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 1px solid black; 
+  padding: 20px; 
+  display: grid; 
+  grid-template-columns: 3fr 6fr;  
+  position: relative; 
+
 }
+
+
+
+.film-details { 
+  font-size: 28px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.film-title {
+  font-size: 30px; 
+  margin-top: 0px; 
+}
+
+.film-description {
+  max-height: 100%;
+
+} /* Hello! */
+
+.action-watch-later {
+  position: relative; 
+}
+
+.fa-clock-o {
+  color: red; 
+  position: absolute; 
+  bottom: 420px;
+  right: 8px; 
+  z-index: 1; 
+}
+
+.action-like {
+  color: red; 
+  position: absolute; 
+  bottom: 8px;
+  right: 8px; 
+}
+
+
+
+
+
+
