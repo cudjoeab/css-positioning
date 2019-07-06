@@ -29,7 +29,7 @@ figure {
   border: 1px solid black; 
   padding: 20px; 
   display: grid; 
-  grid-template-columns: 3fr 6fr;  
+  grid-template-columns: 3fr 6fr;   
   position: relative; 
 
 }
@@ -50,7 +50,12 @@ figure {
 .film-description {
   max-height: 100%;
 
-} /* Hello! */
+} 
+
+.film-poster {
+  position: relative;
+}
+
 
 .action-watch-later {
   position: relative; 
@@ -59,7 +64,7 @@ figure {
 .fa-clock-o {
   color: red; 
   position: absolute; 
-  bottom: 420px;
+  bottom: 415px;
   right: 8px; 
   z-index: 1; 
 }
